@@ -61,7 +61,7 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   var total = total()
   if (cardNumber >= 0){
-    return ("Sorry, we don't have a credit card on file for you.")
+    return ()
     }
   else {
     cart.length = 0
